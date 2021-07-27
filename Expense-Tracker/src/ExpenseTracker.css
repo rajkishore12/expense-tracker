@@ -1,0 +1,54 @@
+.containerstyle{
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    flex-direction: row;  
+    flex-wrap: wrap; 
+}
+
+.Parent{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border: 1px black solid; 
+    width: 55%;
+    justify-content: center;
+    
+}
+
+.AddExpense{ 
+    padding: 20px 20px;
+    border: 1px black solid; 
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    width: 55%;
+}
+
+.TransactionList{
+    border: 1px black solid; 
+    margin-top: 30px;
+    margin: 30px;             
+    width: 60%;
+}
+
+.Items{
+    align-items:center;
+    display:flex;
+    flex-direction: column;
+}
+
+.commontext{
+    font-weight:bold;
+}
+.listItems{
+    margin-left: 10px;
+    text-align: left;
+    padding: 0px;
+}
+
+.headerTags{
+    margin-left: 10px;
+    text-align: left;
+}
